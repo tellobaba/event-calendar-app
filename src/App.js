@@ -4,6 +4,7 @@ import EventForm from './components/EventForm';
 import { db } from './firebase';
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
+// eslint-disable-next-line no-unused-vars
 import { getDocs, onSnapshot, collection } from 'firebase/firestore';
 
 function App() {
