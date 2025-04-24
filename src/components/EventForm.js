@@ -49,7 +49,7 @@ const EventForm = ({ loadEvents, eventToEdit, setEventToEdit }) => {
     <form onSubmit={handleSubmit} className="mb-6">
       <input
         type="text"
-        placeholder="Event Title"
+        placeholder="Idea..."
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         className="border p-2 mr-2"
@@ -62,7 +62,7 @@ const EventForm = ({ loadEvents, eventToEdit, setEventToEdit }) => {
       />
       <input
         type="text"
-        placeholder="Event Description"
+        placeholder="Idea description"
         className="border p-2 rounded w-full mb-2"
         value={description}
         onChange={(e) => setDescription(e.target.value)}
